@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+  </script>
+</head>
+<body>
+  
+<div class="container-fluid bg-primary text-center">
+  <h1>Loan Prediction</h1>
+  <h4>Using Machine Learnig</h4>
+</div>
+
+<div class="container px-5 py-24 mx-auto " > 
+    <div class="flex flex-col text-center w-full mb-10 ">
+      <br>
+      <br>
+      <div class="container-fluid text-left " id="i1">
+        <!-- <pre>
+          <h4><b>Name :</b>{{name}}<br><br><b>Gmail:</b>{{gmail}}<br><br><b>Mobile No :</b> {{Mob}}<br><br><b>Gender :</b> {{gender}}<br><br><b>Married status :</b> {{married}}<br><br><b>Dependents :</b> {{dependents}}<br><br><b>Education :</b> {{education}}<br><br><b>Employed :</b> {{employed}}<br><br><b>Credits :</b> {{credit}}<br><br><b>area :</b> {{area}}<br><br><b>{{prediction}}</b>
+          </h4>
+        </pre> -->
+        <pre>
+          {{name}}<br>          {{gmail}}<br>          {{Mob}}
+                                          Re : pre-approval letter
+
+          Dear sir / Madam
+          
+                  Congratulations based on your information furnished by you. We are pleased
+          to inform you that you have been pre approved for a loan with following parameters:
+          
+                                          Loan Amount:<b>{{LoanAmount}} $</b>
+                                          Term of Loan:<b>{{Loan_Amount_Term}} </b>
+                    
+          
+          Mrs. Waghamode
+          Loan officer
+          ABC PVTLTD
+          New Mumbai
+        </pre>
+      </div>
+      <br>
+    </div>
+
+    <div>
+        <a class="btn btn-primary" href="./" role="button">Back</a>
+        <form action='/predict' method='POST'>
+    </div>
+
+<div>
+
+</body>
+</html>
+
+
+
+
